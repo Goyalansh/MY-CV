@@ -1,0 +1,49 @@
+/*************** tag selectors *****************/
+  body {
+    background-color: #EAF6F6;
+  }
+  hr{
+    width: 30%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 2px;
+    border-color: silver;
+
+  }
+
+  h1{
+    color:#66BFBF
+  }
+
+  h3{
+    color:#66BFBF
+  }
+
+
+/*please note that class and id selectors are more specific to an element*/
+/**************class selectors******************/
+/*uses a dot sign in fornt of the class defined on the element*/
+
+
+.abc {
+  height: 190px;
+  width: 190px;
+  border-radius: 100%;
+}
+
+.abc:hover{
+  background-color: gold;
+}
+
+
+
+
+
+
+
+/****************id selectors******************/
+/uses a # sign in front of the id defined/
+
+
+
+/difference between class and id selectors is that many elements can have the same class but id is unique and different elements cant share it/
