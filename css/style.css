@@ -1,12 +1,13 @@
 /*************** tag selectors *****************/
   body {
     background-color: #EAF6F6;
+    margin:30px;
   }
   hr{
-    width: 30%;
+    width: 10%;
     border-style: none;
     border-top-style: dotted;
-    border-width: 2px;
+    border-width: 5px;
     border-color: silver;
 
   }
@@ -25,13 +26,14 @@
 /*uses a dot sign in fornt of the class defined on the element*/
 
 
-.abc {
-  height: 190px;
-  width: 190px;
+.logo {
+  height: 170px;
+  width: 170px;
   border-radius: 100%;
+  margin-right: 20px;
 }
 
-.abc:hover{
+.logo:hover{
   background-color: gold;
 }
 
